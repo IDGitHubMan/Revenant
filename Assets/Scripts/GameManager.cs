@@ -18,7 +18,7 @@ public class GameManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        FloorBuilder(5);
+        FloorBuilder(10);
     }
 
     public void RoomBuilder(bool slasher, bool pistolman, bool shotgunner, bool demoman, int size, string setting){
@@ -37,6 +37,7 @@ public class GameManager : MonoBehaviour
             RoomBuilder(slashers,pistolmen,shotgunners,demomen,size,"theater");
             length += roomSize;
             size -= roomSize;
+            Debug.Log(size);
         }
     }
 }
