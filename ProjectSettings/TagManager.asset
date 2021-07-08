@@ -3,7 +3,13 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - ExplosiveBarrel
+  - Climbing
+  - Barrel
+  - Crate
+  - StandingCover
+  - Low Cover
   layers:
   - Default
   - TransparentFX
